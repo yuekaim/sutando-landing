@@ -175,4 +175,25 @@
     top: 85vh;
   }
 
+  .landing-logo{
+    position: fixed;
+    top: 70vh;
+  }
+
+  .landing-social{
+    position: fixed;
+    left: 50vw;
+    transform: translateX(-50%);
+    margin-left: -1em;
+  }
+
+  .social-logo img{
+    width: 2em;
+  }
+
+  .comingsoon{
+    font-size: 2em;
+    top: 90vh;
+  }
+
 }
