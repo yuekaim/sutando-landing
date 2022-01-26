@@ -1,0 +1,164 @@
+.landing-bg{
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+
+.landing-bg img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.landing-logo{
+  position: fixed;
+  right: 1em;
+  margin: 0;
+  top: 1em;
+  height: 2.5em;
+}
+
+.landing-logo img{
+  height: 100%;
+}
+
+.landing-social{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+
+.social-logo img{
+  width: 2em;
+  margin-left: 1em;
+}
+
+.twitter{
+  margin-top: 0.3em;
+}
+
+.countdown div{
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  vertical-align: middle;
+  /* border: 1px solid white; */
+  /* border-radius: 3em; */
+  font-size: 3em;
+  color: white;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.countdown-wrapper{
+  position: fixed;
+  /* left: 50vw;
+  top: 60vh; */
+  /*transform: translate(-50%, -50%); */
+  color: white;
+  font-family: sans-serif;
+  z-index: 100;
+}
+
+.title{
+  text-align: center;
+  font-size: 2em;
+  position: relative;
+  top: 80vh;
+  left: 50vw;
+  transform: translateX(-50%);
+  /* width: 100vw; */
+  /* height: 2em; */
+  padding: 0.2em 1em 0.2em 1em;
+  font-weight: 100;
+  text-transform: uppercase;
+  border: 1px solid #fff6;
+  border-radius: 3em;
+  color: #fff6;
+}
+
+.title:hover{
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+.countdown{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+  position: fixed;
+  left: 50vw;
+  top: 70vh;
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.number{
+  transform: translate(-50%, -40%) scale(1.5);
+
+}
+
+.timereach{
+  display: flex;
+  flex-direction: column;
+}
+
+.units div{
+  font-size: 1em;
+  width: 11em;
+  transform: translateY(20%);
+  font-weight: 100;
+}
+
+.fogcontainer{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 755px) {
+  .landing-bg{
+    left: 80vw;
+    top: 50vh;
+    height: 100vh;
+    width: calc(100vh / 9 * 14);
+    transform: translate(-51%, -50%);
+  }
+
+  .landing-bg img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .countdown{
+    transform: translate(-120%, -40%) scale(0.8);
+    flex-direction: column;
+    top: 50vh;
+  }
+
+  .number{
+    transform: translate(-120%, -38%) scale(0.8);
+  }
+
+  .units div{
+    margin-top: 6em;
+    transform: translateY(-80%);
+  }
+
+  .title{
+    font-size: 0.8em;
+    top: 85vh;
+  }
+
+}
