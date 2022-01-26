@@ -177,7 +177,7 @@
 
   .landing-logo{
     position: fixed;
-    top: 70vh;
+    top: 60vh;
   }
 
   .landing-social{
@@ -193,7 +193,7 @@
 
   .comingsoon{
     font-size: 2em;
-    top: 90vh;
+    top: 80vh;
   }
 
 }
