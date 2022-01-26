@@ -13,34 +13,34 @@
 
 <div class="landing-social">
   <div class="discord social-logo">
-    <a href="<?= $page->discord()->url() ?>">
-      <img src="<?php echo url('assets/img/discord.png') ?>" alt="">
+    <a href="" target="_blank">
+      <img src="assets/img/discord.png" alt="">
     </a>
   </div>
   <div class="twitter social-logo">
-    <a href="<?= $page->twitter()->url() ?>">
-      <img src="<?php echo url('assets/img/twitter.png') ?>" alt="">
+    <a href="https://twitter.com/sutando_io" target="_blank">
+      <img src="assets/img/twitter.png" alt="">
     </a>
   </div>
 </div>
 
 <div class="landing-logo">
-  <?php if($image = $page->logo()->toFile()): ?>
-    <img src="<?= $page->logo()->toFile()->url() ?>" alt="">
-  <?php endif ?>
+  <img src="assets/img/logo.png" alt="">
 </div>
 
 <div class="landing-bg">
-  <?php if($image = $page->bgimage()->toFile()): ?>
-    <img src="<?= $page->bgimage()->toFile()->url() ?>" alt="">
-  <?php endif ?>
+  <img src="assets/img/bg.png" alt="">
 </div>
 
+<!-- countdown timer -->
 <div class="countdown-wrapper">
-  <div class="title">
+  <!-- <div class="title">
     Website Launch countdown
+  </div> -->
+  <div class="comingsoon title">
+    COMING SOON
   </div>
-  <div class="countdown">
+  <!-- <div class="countdown">
 
     <div id="timerd" class="chart1" data-percent="" data-scale-color="#ffb400"></div>
     <div id="timerh" class="chart2" data-percent="" data-scale-color="#ffb400"></div>
@@ -48,10 +48,6 @@
     <div id="timers" class="chart4" data-percent="" data-scale-color="#ffb400"></div>
   </div>
   <div class="countdown number">
-    <!-- <div class="timereach">
-      <div class="timern" id="timerdin"></div>
-      <div class="units">DAYS</div>
-    </div> -->
     <div id="timerdin"></div>
     <div id="timerhin"></div>
     <div id="timermin"></div>
@@ -62,7 +58,7 @@
     <div><p>HOURS</p></div>
     <div><p>MINUTES</p></div>
     <div><p>SECONDS</p></div>
-  </div>
+  </div> -->
 </div>
 
 
@@ -89,7 +85,7 @@
 <script type="text/javascript">
 
 // Set the date we're counting down to
-  var date = "2022-2-20T00:00:00"
+  var date = new Date("Feb 20, 2022 15:37:25").getTime();
   var countDownDate = new Date(date).getTime();
 
  // Update the count down every 1 second

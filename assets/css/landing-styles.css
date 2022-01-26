@@ -21,7 +21,7 @@
   right: 1em;
   margin: 0;
   top: 1em;
-  height: 2.5em;
+  height: 5em;
 }
 
 .landing-logo img{
@@ -32,11 +32,12 @@
   display: flex;
   flex-direction: row;
   margin-top: 1em;
+  margin-left: 1em;
 }
 
 .social-logo img{
-  width: 2em;
-  margin-left: 1em;
+  width: 3em;
+  margin-left: 2em;
 }
 
 .twitter{
@@ -126,9 +127,22 @@
   pointer-events: none;
 }
 
+/* temporary */
+
+.comingsoon{
+ /* font-size: 5em; */
+ transform: translate(-50%, -50%);
+ top: 80vh;
+}
+
+.landing-bg{
+  transform: translate(-51.5%, -43%) scale(1.2);
+}
+
 @media only screen and (max-width: 755px) {
   .landing-bg{
-    left: 80vw;
+    /* left: 80vw; */
+    left: 50vw;
     top: 50vh;
     height: 100vh;
     width: calc(100vh / 9 * 14);
