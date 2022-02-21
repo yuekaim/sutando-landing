@@ -1,10 +1,14 @@
+body{
+  background-color: rgb(10,8,8);
+}
+
 .landing-bg{
   position: fixed;
   top: 50vh;
   left: 50vw;
   margin: 0;
   padding: 0;
-  min-width: 100vw;
+  /* min-width: 100vw; */
   /* min-height: 100vh; */
   height: 100vh;
   width: calc(100vh / 9 * 14);
