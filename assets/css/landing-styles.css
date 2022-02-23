@@ -9,7 +9,8 @@
 }
 
 body{
-  background-color: rgb(10,8,8);
+  /* background-color: rgb(10,8,8); */
+  background-color: black;
   font-family: Buffalo, sans-serif;
   letter-spacing: 1px;
 }
@@ -23,7 +24,8 @@ body{
   /* min-width: 100vw; */
   /* min-height: 100vh; */
   height: 100vh;
-  width: calc(100vh / 9 * 14);
+  /* width: calc(100vh / 9 * 14); */
+  width: 100vh;
   z-index: -100;
   transform: translate(-50%, -50%);
 }
