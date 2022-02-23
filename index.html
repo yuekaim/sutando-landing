@@ -85,7 +85,17 @@
 <script type="text/javascript">
 
 // Set the date we're counting down to
-  var date = new Date("March 3, 2022 00:00:00").getTime();
+  var date = new Date("2022-03-04T00:00:00+08:00");
+  // // date = date.toUTCString();
+  // // date = Date(date);
+  // var offset = date.getTimezoneOffset();
+  // var gmt = date.getTime() + (offset * 60000);
+  //
+  // offset = 480;
+  //
+  // var chinatime = new Date(gmt).getTime() + (offset * 60000);
+  // // var chinatime = utc.getTime() + (60000 * 6);
+  // console.log(new Date(chinatime));
   var countDownDate = new Date(date).getTime();
 
  // Update the count down every 1 second

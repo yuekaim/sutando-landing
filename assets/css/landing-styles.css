@@ -1,5 +1,17 @@
+@font-face {
+  font-family: Buffalo-bold;
+  src: url(Buffalo-Bold.ttf);
+}
+
+@font-face {
+  font-family: Buffalo;
+  src: url(Buffalo-Regular.ttf);
+}
+
 body{
   background-color: rgb(10,8,8);
+  font-family: Buffalo, sans-serif;
+  letter-spacing: 1px;
 }
 
 .landing-bg{
@@ -37,8 +49,8 @@ body{
 .landing-social{
   display: flex;
   flex-direction: row;
-  margin-top: 1em;
-  margin-left: 1em;
+  margin-top: 2em;
+  margin-left: -0.5em;
 }
 
 .social-logo img{
@@ -69,7 +81,7 @@ body{
   top: 60vh; */
   /*transform: translate(-50%, -50%); */
   color: white;
-  font-family: sans-serif;
+  /* font-family: Buffalo; */
   z-index: 100;
   pointer-events: none;
 }
@@ -89,6 +101,9 @@ body{
   border: 1px solid #fff6;
   border-radius: 3em;
   color: #fff6;
+
+  line-height: 15px;
+  height: 30px;
 }
 
 .title:hover{
@@ -108,8 +123,8 @@ body{
 }
 
 .number{
-  transform: translate(-50%, -40%) scale(1.5);
-
+  transform: translate(-50%, -50%) scale(1.5);
+  font-family: Buffalo-bold;
 }
 
 .timereach{
@@ -120,7 +135,7 @@ body{
 .units div{
   font-size: 1em;
   width: 11em;
-  transform: translateY(20%);
+  /* transform: translateY(20%); */
   font-weight: 100;
 }
 
