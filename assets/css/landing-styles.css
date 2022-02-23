@@ -171,7 +171,8 @@ body{
     left: 50vw;
     top: 50vh;
     height: 100vh;
-    width: calc(100vh / 9 * 14);
+    /* width: calc(100vh / 9 * 14); */
+    width: 100vh;
     transform: translate(-51%, -50%);
   }
 
