@@ -25,7 +25,7 @@ body{
   /* min-height: 100vh; */
   height: 100vh;
   /* width: calc(100vh / 9 * 14); */
-  width: 100vh;
+  width: calc(100vh / 997 * 1500);
   z-index: -100;
   transform: translate(-50%, -50%);
 }
@@ -90,9 +90,9 @@ body{
 
 .title{
   text-align: center;
-  font-size: 2em;
+  font-size: 4em;
   position: relative;
-  top: 80vh;
+  top: 75vh;
   left: 50vw;
   transform: translateX(-50%);
   /* width: 100vw; */
@@ -105,7 +105,7 @@ body{
   color: #fff6;
 
   line-height: 15px;
-  height: 30px;
+  height: 50px;
 }
 
 .title:hover{
@@ -172,7 +172,7 @@ body{
     top: 50vh;
     height: 100vh;
     /* width: calc(100vh / 9 * 14); */
-    width: 100vh;
+    width: calc(100vh / 997 * 1500);
     transform: translate(-51%, -50%);
   }
 
@@ -200,6 +200,8 @@ body{
   .title{
     font-size: 0.8em;
     top: 85vh;
+    line-height: 15px;
+    height: 30px;
   }
 
   .landing-logo{
