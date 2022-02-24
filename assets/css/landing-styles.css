@@ -11,7 +11,7 @@
 body{
   /* background-color: rgb(10,8,8); */
   background-color: black;
-  font-family: Buffalo, sans-serif;
+  font-family: 'Buffalo', sans-serif;
   letter-spacing: 1px;
 }
 
@@ -139,7 +139,7 @@ body{
 
 .number{
   transform: translate(-50%, -50%) scale(1.5);
-  font-family: Buffalo-bold;
+  font-family: 'Buffalo-bold';
 }
 
 .timereach{
@@ -257,6 +257,7 @@ body{
     width: 90vw;
     transform: none;
   }
+
   .landing-bg{
     /* left: 80vw; */
     left: 50vw;
@@ -273,7 +274,7 @@ body{
   }
 
   .countdown-wrapper{
-    bottom: 33em;
+    bottom: 23em;
   }
   .countdown{
     transform: translate(-120%, -40%) scale(0.8);
@@ -302,7 +303,7 @@ body{
 
   .landing-logo{
     position: fixed;
-    top: 100px;
+    top: 80px;
   }
 
   .landing-social{
