@@ -6,9 +6,9 @@
 // });
 
 $('.subscribe').first().click(function() {
-  $('#mc_embed_signup').show();
+  $('#mc_embed_signup').fadeIn(200);
 });
 
 $('.bg-overlay').first().click(function() {
-  $('#mc_embed_signup').hide();
+  $('#mc_embed_signup').fadeOut(200);
 });

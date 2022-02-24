@@ -96,13 +96,14 @@ body{
   /* font-family: Buffalo; */
   z-index: 100;
   pointer-events: none;
+  bottom: 250px;
 }
 
 .title{
   text-align: center;
   font-size: 4em;
-  position: relative;
-  top: 75vh;
+  /* position: relative; */
+  /* top: 75vh; */
   left: 50vw;
   transform: translateX(-50%);
   /* width: 100vw; */
@@ -130,8 +131,10 @@ body{
 
   position: fixed;
   left: 50vw;
-  top: 70vh;
+  /* top: 70vh; */
   transform: translate(-50%, -50%) scale(1.5);
+  /* position: fixed; */
+
 }
 
 .number{
@@ -165,13 +168,16 @@ body{
 
 /* temporary */
 
-/* .comingsoon{
- font-size: 5em;
+.comingsoon{
+ /* font-size: 5em;
  transform: translate(-50%, -50%);
- top: 80vh;
+ top: 80vh; */
+ position: fixed;
+ bottom: 80px;
+
 }
 
-.landing-bg{
+/*.landing-bg{
   transform: translate(-51.5%, -43%) scale(1.2);
 } */
 
@@ -181,18 +187,25 @@ body{
 }
 
 .subscribe{
+  /* position: fixed; */
+  z-index: 2000;
   color: white;
   cursor: pointer;
   /* border: 1px solid white; */
   font-family: 'Buffalo', sans-serif;
-  margin-top: -1.25em;
-  margin-left: -0.2em;
+  /* margin-top: -1.25em; */
+  /* margin-left: -0.2em; */
   text-align: center;
-  font-size: 2.6em;
+  font-size: 2em;
   padding: 0 1em 0 1em;
   /* text-decoration: underline; */
-  transition-duration: 0.3s;s
+  transition-duration: 0.3s;
   /* border-radius: 2em; */
+
+  position: fixed;
+  bottom: 10px;
+  left: 50vw;
+  transform: translateX(-50%);
 }
 
 .subscribe:hover{
@@ -221,11 +234,22 @@ body{
   height: 50px;
 }
 
+.mce_inline_error{
+  background-color: black;
+}
+
+#mc-embedded-subscribe{
+  font-family: 'Buffalo', sans-serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
 @media only screen and (max-width: 755px) {
   #mc_embed_signup{
-    display: block;
+    display: none;
     left: 0;
-    
+
     /* width: 100vw; */
     top: 300px;
   }
@@ -248,11 +272,14 @@ body{
     height: 100%;
   }
 
-
+  .countdown-wrapper{
+    bottom: 33em;
+  }
   .countdown{
     transform: translate(-120%, -40%) scale(0.8);
     flex-direction: column;
-    top: 50vh;
+    /* top: 50vh; */
+
   }
 
   .number{
@@ -268,14 +295,14 @@ body{
 
   .title{
     font-size: 0.8em;
-    top: 55vh;
+    /* top: 55vh; */
     line-height: 15px;
     height: 30px;
   }
 
   .landing-logo{
     position: fixed;
-    top: 130px;
+    top: 100px;
   }
 
   .landing-social{
@@ -292,7 +319,7 @@ body{
 
   .subscribe{
     margin-top: -1em;
-    margin-left: 0.8em;
+    /* margin-left: 0.8em; */
   }
 
   .social-logo img{
@@ -301,7 +328,12 @@ body{
 
   .comingsoon{
     font-size: 2em;
-    top: 80vh;
+    bottom: 150px;
+  }
+
+  .subscribe{
+    bottom: 180px;
+    /* font-size: 0.8em; */
   }
 
 }
