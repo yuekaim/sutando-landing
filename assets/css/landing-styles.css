@@ -223,16 +223,15 @@ body{
 
 @media only screen and (max-width: 755px) {
   #mc_embed_signup{
-    position: fixed;
+    display: block;
     left: 0;
-    top: 0;
-    transform: none;
+    
+    /* width: 100vw; */
+    top: 300px;
   }
   #mc_embed_signup form{
-    width: 100vw;
-    left: 0;
+    width: 90vw;
     transform: none;
-    position: fixed;
   }
   .landing-bg{
     /* left: 80vw; */
@@ -269,14 +268,14 @@ body{
 
   .title{
     font-size: 0.8em;
-    top: 85vh;
+    top: 55vh;
     line-height: 15px;
     height: 30px;
   }
 
   .landing-logo{
     position: fixed;
-    top: 10vh;
+    top: 130px;
   }
 
   .landing-social{
@@ -284,6 +283,16 @@ body{
     left: 50vw;
     transform: translateX(-50%);
     margin-left: -1em;
+
+    flex-direction: column;
+    align-items: center;
+
+    top: -10px;
+  }
+
+  .subscribe{
+    margin-top: -1em;
+    margin-left: 0.8em;
   }
 
   .social-logo img{
@@ -292,7 +301,7 @@ body{
 
   .comingsoon{
     font-size: 2em;
-    top: 90vh;
+    top: 80vh;
   }
 
 }
