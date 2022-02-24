@@ -275,6 +275,7 @@ body{
 
   .countdown-wrapper{
     bottom: 23em;
+    transform: scale(0.7);
   }
   .countdown{
     transform: translate(-120%, -40%) scale(0.8);
@@ -290,7 +291,7 @@ body{
 
   .units div{
     margin-top: 6em;
-    transform: translateY(-80%);
+    transform: translateY(-90%);
 
   }
 
@@ -327,14 +328,22 @@ body{
     width: 2em;
   }
 
+
+
   .comingsoon{
     font-size: 2em;
-    bottom: 150px;
+    bottom: 100px;
+    width: 40%;
+    /* transform: translateX(20%); */
   }
 
   .subscribe{
-    bottom: 180px;
+    bottom: 30px;
     /* font-size: 0.8em; */
+  }
+
+  .landing-logo img {
+    /* height: 80%; */
   }
 
 }
