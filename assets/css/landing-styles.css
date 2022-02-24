@@ -321,6 +321,7 @@ body{
 
   .subscribe{
     margin-top: -1em;
+    z-index: 500;
     /* margin-left: 0.8em; */
   }
 
