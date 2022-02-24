@@ -66,6 +66,12 @@ body{
 
 .twitter{
   margin-top: 0.3em;
+  transition-duration: 0.3s;s
+}
+
+.twitter:hover{
+  filter: brightness(0.5) sepia(1) saturate(10000%);
+  transition-duration: 0.3s;
 }
 
 .countdown div{
@@ -169,7 +175,65 @@ body{
   transform: translate(-51.5%, -43%) scale(1.2);
 } */
 
+/* mailchimp */
+#mc_embed_signup{
+  display: none;
+}
+
+.subscribe{
+  color: white;
+  cursor: pointer;
+  /* border: 1px solid white; */
+  font-family: 'Buffalo', sans-serif;
+  margin-top: -1.25em;
+  margin-left: -0.2em;
+  text-align: center;
+  font-size: 2.6em;
+  padding: 0 1em 0 1em;
+  /* text-decoration: underline; */
+  transition-duration: 0.3s;s
+  /* border-radius: 2em; */
+}
+
+.subscribe:hover{
+  text-decoration: none;
+  color: red;
+  transition-duration: 0.3s;
+}
+
+.brandingLogo{
+  display: none;
+}
+
+#mc_embed_signup .foot input{
+  background-color: red;
+  /* width: 100%; */
+  margin-bottom: 3em;
+  color: white;
+}
+
+#mc_embed_signup .mc-field-group input{
+  color: white;
+  font-family: 'Buffalo', sans-serif;
+  font-size: 1.5em;
+
+  line-height: 30px;
+  height: 50px;
+}
+
 @media only screen and (max-width: 755px) {
+  #mc_embed_signup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: none;
+  }
+  #mc_embed_signup form{
+    width: 100vw;
+    left: 0;
+    transform: none;
+    position: fixed;
+  }
   .landing-bg{
     /* left: 80vw; */
     left: 50vw;
@@ -193,12 +257,14 @@ body{
   }
 
   .number{
-    transform: translate(-120%, -38%) scale(0.8);
+    transform: translate(-120%, -40%) scale(0.8);
+
   }
 
   .units div{
     margin-top: 6em;
     transform: translateY(-80%);
+
   }
 
   .title{
